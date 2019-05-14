@@ -1,0 +1,63 @@
+table.content {
+    width:510.0pt;
+    border-collapse:collapse;
+    border: 1px solid #E5E5E5;
+    border-spacing: 0;
+}
+
+thead tr td{
+    border:1px solid #E5E5E5;
+    border-left:none;
+    background:#F4F4F4;
+    padding:6.0pt 6.0pt 6.0pt 6.0pt;
+    height:1.0pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead tr{
+    height:1.0pt;
+}
+
+thead tr td p{
+    margin-bottom:0cm;
+    margin-bottom:.0001pt;
+    text-align:center;
+    line-height:13.5pt;
+    font-family:"Times New Roman",serif;
+}
+
+table.content tr td{
+    border:1px solid #E5E5E5;
+    border-top:none;
+    text-align:center;
+    padding:6.0pt 6.0pt 6.0pt 6.0pt;
+    vertical-align: middle;
+}
+
+table.content tr td p{
+    margin-bottom:0cm;
+    margin-bottom:.0001pt;
+    line-height: 13.5pt;
+    font-family:"Times New Roman",serif;
+    vertical-align: middle;
+}
+
+
+.img-exercicios{
+    width: 60px;
+    height: 60px;
+}
+
+.exercicio-nome{
+    font-family:"Times New Roman",serif;
+    font-size: 11px;
+}
+
+.color-bg{
+    background-color: #cccccc;
+}
+
+.color-bg-clean{
+    background-color: #F4F4F4;
+}

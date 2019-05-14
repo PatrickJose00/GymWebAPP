@@ -1,0 +1,57 @@
+.content-slide{
+    position: absolute;
+    bottom: 20px;
+    background-color: #272727;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.content-slide p{
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.header-slide{
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 60px;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.slider .box-slider{
+    position: relative;
+}
+
+.imgs-gym-inside{
+    min-height: 280px;
+    max-height:280px;
+    width: 100%;
+    margin-bottom: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.imgs-gym-inside:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.services{
+    min-height: 400px;
+}
+
+.site-contact, .site-login{
+    padding: 7em 0;
+}
+
+.btn-home{
+    background-color: #009789;
+    border: 2px solid #009789;
+    color: #FFFFFF;
+}

@@ -1,0 +1,339 @@
+body, html{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+.margin-btn-label{
+    margin-right: 2px;
+}
+
+
+/*#packs {
+    background: #FFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}*/
+
+#packs .panel-heading {
+    border-radius: 0;
+    background: #222d32;
+    color: #FFF;
+    text-align: center;
+}
+
+#packs .panel-body {
+    background: #F3F4F5;
+}
+
+#packs .panel-body .fa {
+    color: #4cb700;
+}
+
+h2.sectionintro.white {
+    text-align: center;
+    border-bottom: 1px solid #EFEFEF !important;
+}
+
+#packs .panel-title {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#packs p {
+    font-size: 12px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    margin: 0;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#packs .panel-footer {
+    padding: 10px 15px;
+    background-color: #222d32;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+
+#packs h5.price {
+    font-size: 20px;
+    display: initial;
+    margin-right: 15px;
+    color: #FFF;
+    border-right: 1px solid #4a4f58;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+#packs .panel-body .fa-check-square{
+    margin-right: 10px;
+}
+
+.btn-primary-small {
+    color: #fff;
+    background-color: #df3626;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: 600;
+    border: none;
+}
+
+#packs sup {
+    top: -.5em;
+    font-size: 12px;
+}
+
+.radio-btn{
+    display: initial;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.columns {
+    margin-bottom:20px;
+    cursor:pointer;
+}
+
+.price-aulas {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.highlight{
+    min-height: 120px;
+}
+
+.price-aulas:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price-aulas .header {
+    background-color: #222d32;
+    color: white;
+    font-size: 25px;
+    transition: all .2s ease-in-out;
+}
+
+.price-aulas li {
+    border-bottom: 1px solid #eee;
+    padding:12px;
+    text-align: center;
+
+}
+
+.price-aulas .grey {
+    background-color: #eee;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF !important;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .2s ease-in-out;
+}
+.button:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.img-aula{
+    width: 100px;
+    position: relative;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.img-aula:hover{
+    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
+.table > tbody > tr > td{
+    vertical-align: middle;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.info-renovar label.red a{
+    color: red;
+}
+
+.info-renovar label.green a{
+    color: green;
+}
+
+ul.ul-bottom{
+    margin-bottom: 0;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.thumbnail p{
+    min-height: 60px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .thumbnail p{
+        min-height: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .equal, .equal > div[class*='col-'] {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex:1 1 auto;
+    }
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#nav {
+    display: block;
+    padding-left: 0px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
+}
+
+#nav li {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#nav > li > a {
+    display: block;
+    padding: 8px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d4d4d4;
+    text-decoration: none;
+    border-bottom: 1px solid #212121;
+    background-color: #343434;
+    background: -webkit-gradient(linear, left top, left bottom, from(#343434), to(#292929));
+    background: -webkit-linear-gradient(top, #343434, #292929);
+    background: -moz-linear-gradient(top, #343434, #292929);
+    background: -ms-linear-gradient(top, #343434, #292929);
+    background: -o-linear-gradient(top, #343434, #292929);
+    background: linear-gradient(top, #343434, #292929);
+}
+
+#nav > li > a:hover, #nav > li > a.open {
+    color: #e9e9e9;
+    border-bottom-color: #384f76;
+    background-color: #1e282c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1e282c), to(#1e282c));
+    background: -webkit-linear-gradient(top, #1e282c, #1e282c);
+    background: -moz-linear-gradient(top, #1e282c, #1e282c);
+    background: -ms-linear-gradient(top, #1e282c, #1e282c);
+    background: -o-linear-gradient(top, #1e282c, #1e282c);
+    background: linear-gradient(top, #1e282c, #1e282c);
+}
+
+#nav li ul { display: none; background: #4a5b78; }
+
+#nav li ul li a {
+    display: block;
+    text-align: center;
+    background: none;
+    padding: 10px 0px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #e3e7f1;
+    text-shadow: 1px 1px 0px #000;
+}
+
+#nav li ul li a:hover {
+    background: #1e282c;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered{
+    margin-top: 0 !important;
+}
+
+.ul-bullet li {
+    display: block;
+}
+
+.ul-bullet li:before
+{
+    content: "\f061";
+    font-family: 'FontAwesome';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #555;
+}
+
+.ul-bullet-view li:before
+{
+    content: "\f061";
+    font-family: 'FontAwesome';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+    color: #555;
+}
+
+.margin-btn-add{
+
+}
+
+.primary{
+    background-color: #ccefff;
+}
+
+.imagem-tamanho{
+    min-height: 250px;
+    max-height: 250px;
+    width: 100%;
+}
